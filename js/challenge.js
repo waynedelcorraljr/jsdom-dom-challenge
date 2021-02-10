@@ -4,7 +4,7 @@ let minus = document.querySelector('#minus');
 let heart = document.querySelector('#heart');
 let pause = document.querySelector('#pause');
 let likes = document.querySelector('.likes');
-let likesArr = [...likes.children]
+
 
 plus.addEventListener("click", incrementCounter);
 minus.addEventListener("click", decrementCounter);
